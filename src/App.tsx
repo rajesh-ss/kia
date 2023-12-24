@@ -1,16 +1,14 @@
-import './App.css'
-import './index.css'
-import './index.scss'
+import { Outlet } from "react-router-dom";
+import "./App.css";
+import "./index.css";
+import "./index.scss";
 
 function App() {
-
   return (
     <>
-      <h1 className="text-3xl font-bold">
-      Hello world!
-    </h1>
+      <Outlet />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

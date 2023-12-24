@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.home-banner-bg {
+	background: url('./assets/bannerTwo.jpeg') #1a1b1cf6;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.glass-morphism {
+	background: rgba(255, 255, 255, 0);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+
+}
+
+.banner-about-us {
+	background: url('./assets/3A2B6B56-4379-484D-A823-85B4E1107D12.jpeg') #1a1b1cf6;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
