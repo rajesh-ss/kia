@@ -1,6 +1,7 @@
 {
   "name": "template_tailwind_configured",
   "private": true,
+  "homepage":"http://rajesh-ss.github.io/kia/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
